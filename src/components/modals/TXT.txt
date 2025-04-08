@@ -1,0 +1,33 @@
+import { Dialog, Button, Typography } from "@material-tailwind/react";
+import { AppNotification } from "iconoir-react";
+import { Xmark } from "iconoir-react";
+
+export default function SellModal({ open, setOpen }) {
+  return (
+    <Dialog size="xs" open={open} onClose={() => setOpen(false)}>
+      <Dialog.Overlay>
+        <Dialog.Content className="p-8 relative">
+          {/* Close Button */}
+          <button
+            onClick={() => setOpen(false)}
+            className="absolute top-2 right-2 text-gray-500 hover:text-black"
+          >
+            <Xmark className="h-5 w-5" />
+          </button>
+          <div className="mt-12 flex flex-col items-center text-center">
+            <AppNotification className="mb-6 h-24 w-24" />
+            <Typography type="h6">Choose what to sell!</Typography>
+            <Typography className="mt-2 text-center text-foreground text-xs sm:text-sm">
+    		You can either sell your produce directly or post a gig for others to take on and help you out.
+            </Typography>
+          </div>
+          <div className="mb-1 mt-8 flex items-center justify-center gap-2">
+            <Button><span className="hidden sm:block mr-1">Sell</span> Produce</Button>
+            <Button><span className="hidden sm:block mr-1">Post</span> Gig</Button>
+          </div>
+        </Dialog.Content>
+      </Dialog.Overlay>
+    </Dialog>
+  );
+}
+
