@@ -5,7 +5,6 @@ import { Button } from "@material-tailwind/react";
 import axios from "axios";
 import ProductGallery from '../components/FeaturedGallery';
 import Breadcrumb from '../components/Breadcrumb';
-import User from '../components/User'
 import config from "../api/apiConfig";
 
 const ProductDetail = () => {
