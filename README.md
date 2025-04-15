@@ -43,5 +43,8 @@ To run the frontend locally, use:
 
   ```bash
   npm start
+  ```
 
-
+# ⚠️ ⚠️ ⚠️ Please Note:
+This is a simplified version of a larger project.
+The full implementation includes more advanced features and architecture, but remains private due to proprietary and sensitive content.
