@@ -45,7 +45,7 @@ To run the frontend locally, use:
   npm start
   ```
 
-# ⚠️ ⚠️ ⚠️ Please Note:
+## ⚠️ ⚠️ ⚠️ Please Note:
 This is a simplified version of a larger project.
 The full implementation includes more advanced features and architecture, but remains private due to proprietary and sensitive content.
 
