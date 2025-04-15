@@ -48,3 +48,5 @@ To run the frontend locally, use:
 # ⚠️ ⚠️ ⚠️ Please Note:
 This is a simplified version of a larger project.
 The full implementation includes more advanced features and architecture, but remains private due to proprietary and sensitive content.
+
+### If it sparks something in you, smash that ⭐️ instead of just cloning and ghosting
